@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.item {
+  background-color: blue;
+}
+.relative {
+  position: relative;
+  left: 30px;
+}
+.text {
+  margin-left: 30px;
+}
+header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+.absolute {
+  position: absolute;
+}
+.background-image {
+  background-image: url("./house.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.parent {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+}
